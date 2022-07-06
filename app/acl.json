@@ -1,0 +1,36 @@
+{
+    "Guest" : {
+        "denied" : {
+            "Portfolio" : ["ad_index"],
+            "News" : ["ad_index"],
+            "Services" : ["*"],
+            "Company" : ["*"],
+            "Profile" : ["*"]
+        },
+        "Register" : ["login", "register"],
+        "Restricted" : ["*"],
+
+        "Home" : ["*"],
+        "About" : ["*"],
+        "Admin" : ["*"],
+        "Portfolio" : ["*"],
+        "News" : ["*"],
+        "Contact" : ["*"],
+        "Biuldtables" : ["*"]
+
+    },
+    "LoggedIn" : {
+        "denied" : {
+            "Register" : ["login", "register"],
+            "Portfolio" : ["details", "services"],
+            "News" : ["details"]
+        },
+        "Register" : ["*"],
+        "Portfolio" : ["ad_index"],
+        "Services" : ["*"],
+        "Company" : ["*"],
+        "Profile" : ["*"],
+        "News" : ["ad_index"],
+        "Contact" : ["ad_index"]
+    }
+}

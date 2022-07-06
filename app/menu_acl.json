@@ -1,0 +1,16 @@
+{
+    "Home" : "home",
+    "About" : "about",
+    "Portfolio" : {
+        "My Portfolio": "portfolio",
+        "Services": "portfolio/services"
+    },
+    "News" : {
+        "All News": "news"
+    },
+    "Contact" : "contact",
+    "Services" : "services",
+    "Company" : "company",
+    "Profile" : "register",
+    "Logout" : "register/logout"
+}
